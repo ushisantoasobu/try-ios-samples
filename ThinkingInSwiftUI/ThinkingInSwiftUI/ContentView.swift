@@ -16,11 +16,19 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .debug()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+extension View {
+    func debug() -> Self {
+        print(Mirror(reflecting: self).subjectType)
+        return self
     }
 }
