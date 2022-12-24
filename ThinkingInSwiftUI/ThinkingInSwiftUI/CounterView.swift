@@ -29,6 +29,7 @@ struct CounterView: View {
                 Text("You've not yet tapped")
             }
         }
+        .debug()
     }
 }
 

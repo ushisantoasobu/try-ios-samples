@@ -55,9 +55,9 @@
 			children = (
 				D6F31FA2295350BF00B06769 /* ThinkingInSwiftUIApp.swift */,
 				D6F31FA4295350BF00B06769 /* ContentView.swift */,
+				D6F31FB02956A86300B06769 /* CounterView.swift */,
 				D6F31FA6295350C600B06769 /* Assets.xcassets */,
 				D6F31FA8295350C600B06769 /* Preview Content */,
-				D6F31FB02956A86300B06769 /* CounterView.swift */,
 			);
 			path = ThinkingInSwiftUI;
 			sourceTree = "<group>";
