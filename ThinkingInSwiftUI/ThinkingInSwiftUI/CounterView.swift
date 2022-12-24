@@ -17,6 +17,7 @@ struct CounterView: View {
                 counter += 1
             } label: {
                 Text("Tap me!")
+                    // length = nil -> "a platform-specific default amount"
                     .padding()
                     .background(Color(.tertiarySystemFill))
                     .cornerRadius(5)
