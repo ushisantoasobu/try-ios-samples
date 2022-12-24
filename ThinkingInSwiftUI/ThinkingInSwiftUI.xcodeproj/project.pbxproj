@@ -12,6 +12,7 @@
 		D6F31FA7295350C600B06769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F31FA6295350C600B06769 /* Assets.xcassets */; };
 		D6F31FAA295350C600B06769 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F31FA9295350C600B06769 /* Preview Assets.xcassets */; };
 		D6F31FB12956A86300B06769 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F31FB02956A86300B06769 /* CounterView.swift */; };
+		D6F31FB32956BBC600B06769 /* SampleViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F31FB22956BBC600B06769 /* SampleViewBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D6F31FA6295350C600B06769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6F31FA9295350C600B06769 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D6F31FB02956A86300B06769 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		D6F31FB22956BBC600B06769 /* SampleViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				D6F31FB02956A86300B06769 /* CounterView.swift */,
 				D6F31FA6295350C600B06769 /* Assets.xcassets */,
 				D6F31FA8295350C600B06769 /* Preview Content */,
+				D6F31FB22956BBC600B06769 /* SampleViewBuilder.swift */,
 			);
 			path = ThinkingInSwiftUI;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				D6F31FA5295350BF00B06769 /* ContentView.swift in Sources */,
 				D6F31FA3295350BF00B06769 /* ThinkingInSwiftUIApp.swift in Sources */,
+				D6F31FB32956BBC600B06769 /* SampleViewBuilder.swift in Sources */,
 				D6F31FB12956A86300B06769 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,8 @@ import SwiftUI
 struct ThinkingInSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            CounterView()
+            ContentView()
+//            CounterView()
         }
     }
 }
