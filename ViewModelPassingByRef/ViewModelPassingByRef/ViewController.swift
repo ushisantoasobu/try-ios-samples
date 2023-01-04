@@ -32,6 +32,7 @@ class SomeAViewController: UIViewController {
         let sb = UIStoryboard.init(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "A") as! SomeAViewController
         vc.vm = SomeViewModel()
+        print(Unmanaged.passUnretained(vc.vm).toOpaque())
         return vc
     }
     
@@ -61,6 +62,7 @@ class SomeBViewController: UIViewController {
         let sb = UIStoryboard.init(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "B") as! SomeBViewController
         vc.vm = vm
+        print(Unmanaged.passUnretained(vc.vm).toOpaque())
         return vc
     }
     
