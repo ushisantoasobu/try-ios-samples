@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @ObservedObject var vm = SomeViewModel()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button("add") {
+                vm.insert()
+            }
+            Text("\(vm.someList.count)")
         }
         .padding()
     }
