@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBF35E7D295BCC2B00B55088 /* EnvironmentObjectDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF35E7C295BCC2B00B55088 /* EnvironmentObjectDI.swift */; };
 		D6F31FA3295350BF00B06769 /* ThinkingInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F31FA2295350BF00B06769 /* ThinkingInSwiftUIApp.swift */; };
 		D6F31FA5295350BF00B06769 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F31FA4295350BF00B06769 /* ContentView.swift */; };
 		D6F31FA7295350C600B06769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F31FA6295350C600B06769 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BBF35E7C295BCC2B00B55088 /* EnvironmentObjectDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectDI.swift; sourceTree = "<group>"; };
 		D6F31F9F295350BF00B06769 /* ThinkingInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkingInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F31FA2295350BF00B06769 /* ThinkingInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkingInSwiftUIApp.swift; sourceTree = "<group>"; };
 		D6F31FA4295350BF00B06769 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				D6F31FA6295350C600B06769 /* Assets.xcassets */,
 				D6F31FA8295350C600B06769 /* Preview Content */,
 				D6F31FB22956BBC600B06769 /* SampleViewBuilder.swift */,
+				BBF35E7C295BCC2B00B55088 /* EnvironmentObjectDI.swift */,
 			);
 			path = ThinkingInSwiftUI;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				D6F31FA5295350BF00B06769 /* ContentView.swift in Sources */,
 				D6F31FA3295350BF00B06769 /* ThinkingInSwiftUIApp.swift in Sources */,
 				D6F31FB32956BBC600B06769 /* SampleViewBuilder.swift in Sources */,
+				BBF35E7D295BCC2B00B55088 /* EnvironmentObjectDI.swift in Sources */,
 				D6F31FB12956A86300B06769 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +317,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

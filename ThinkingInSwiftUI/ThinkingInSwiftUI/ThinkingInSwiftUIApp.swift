@@ -13,6 +13,8 @@ struct ThinkingInSwiftUIApp: App {
         WindowGroup {
             ContentView()
 //            CounterView()
+//            EnvironmentObjectDI()
+//                .environmentObject(EnvironmentObjectDIViewModel())
         }
     }
 }

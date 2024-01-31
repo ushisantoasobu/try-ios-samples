@@ -9,16 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-            Text("\(makeSum(hoge: 1 == 1))")
-            myView()
+        NavigationView {
+            VStack(spacing: 8) {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello, world!")
+                Text("\(makeSum(hoge: 1 == 1))")
+                NavigationLink(
+                    destination: {
+                        EnvironmentObjectDIView()
+                            .environmentObject(EnvironmentObjectDIViewModel())
+                    },
+                    label: { Text("to EnvironmentObjectDIView()") }
+                )
+            }
+            .padding()
+            .debug()
         }
-        .padding()
-        .debug()
+//        .environmentObject(EnvironmentObjectDIViewModel())
     }
 
     @MyIntSumBuilder func makeSum(hoge: Bool) -> Int {
