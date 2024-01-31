@@ -14,6 +14,8 @@
 		D6F31FAA295350C600B06769 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F31FA9295350C600B06769 /* Preview Assets.xcassets */; };
 		D6F31FB12956A86300B06769 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F31FB02956A86300B06769 /* CounterView.swift */; };
 		D6F31FB32956BBC600B06769 /* SampleViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F31FB22956BBC600B06769 /* SampleViewBuilder.swift */; };
+		D6F31FB529598F1D00B06769 /* ModifireOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F31FB429598F1D00B06769 /* ModifireOrderView.swift */; };
+		D6F31FB72965C9CA00B06769 /* StateObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F31FB62965C9CA00B06769 /* StateObjectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		D6F31FA9295350C600B06769 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D6F31FB02956A86300B06769 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		D6F31FB22956BBC600B06769 /* SampleViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewBuilder.swift; sourceTree = "<group>"; };
+		D6F31FB429598F1D00B06769 /* ModifireOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifireOrderView.swift; sourceTree = "<group>"; };
+		D6F31FB62965C9CA00B06769 /* StateObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				D6F31FA8295350C600B06769 /* Preview Content */,
 				D6F31FB22956BBC600B06769 /* SampleViewBuilder.swift */,
 				BBF35E7C295BCC2B00B55088 /* EnvironmentObjectDI.swift */,
+				D6F31FB429598F1D00B06769 /* ModifireOrderView.swift */,
+				D6F31FB62965C9CA00B06769 /* StateObjectView.swift */,
 			);
 			path = ThinkingInSwiftUI;
 			sourceTree = "<group>";
@@ -148,9 +154,11 @@
 			files = (
 				D6F31FA5295350BF00B06769 /* ContentView.swift in Sources */,
 				D6F31FA3295350BF00B06769 /* ThinkingInSwiftUIApp.swift in Sources */,
+				D6F31FB529598F1D00B06769 /* ModifireOrderView.swift in Sources */,
 				D6F31FB32956BBC600B06769 /* SampleViewBuilder.swift in Sources */,
 				BBF35E7D295BCC2B00B55088 /* EnvironmentObjectDI.swift in Sources */,
 				D6F31FB12956A86300B06769 /* CounterView.swift in Sources */,
+				D6F31FB72965C9CA00B06769 /* StateObjectView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

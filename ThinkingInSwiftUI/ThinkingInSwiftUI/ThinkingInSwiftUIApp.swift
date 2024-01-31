@@ -11,10 +11,7 @@ import SwiftUI
 struct ThinkingInSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-//            CounterView()
-//            EnvironmentObjectDI()
-//                .environmentObject(EnvironmentObjectDIViewModel())
+            StateObjectView()
         }
     }
 }
